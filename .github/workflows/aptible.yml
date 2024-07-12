@@ -2,7 +2,7 @@ name: aptible
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   workflow_dispatch: {}
 
 jobs:
@@ -17,6 +17,6 @@ jobs:
       with:
         type: git
         app: wzmlxbot
-        environment: aeonxbotz
+        environment: suzanbotz
         username: ${{ secrets.APTIBLE_USERNAME }}
         password: ${{ secrets.APTIBLE_PASSWORD }}
