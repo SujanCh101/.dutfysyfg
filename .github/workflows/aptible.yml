@@ -17,6 +17,6 @@ jobs:
       with:
         type: git
         app: wzmlxbot
-        environment: wzmlxbotzzzzzzz
+        environment: wzmlxbotx
         username: ${{ secrets.APTIBLE_USERNAME }}
         password: ${{ secrets.APTIBLE_PASSWORD }}
